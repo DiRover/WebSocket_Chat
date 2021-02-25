@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+
+.modal {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 400px;
+    border: 2px solid yellow;
+    border-radius: 35px;
+    background-color: rgb(214, 207, 221);
+    top: 10%;
+    left: 50%;
+    margin-left: -200px;
+    position: absolute;
+    z-index: 9999;
+}
+
+.modal-title {
+    font-family: 'Xanh Mono', monospace;
+    display: block;
+    margin-top: 0;
+    text-align: center;
+}
+
+.form-field {
+    text-align: center;
+}
+
+.form-input {
+    font-family: 'Xanh Mono', monospace;
+    font-size: 1.6rem;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 200px;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.form-button {
+    font-family: 'Xanh Mono', monospace;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 0;
+    border: 0px;
+    height: 50px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: calc(50% - 65px);
+}
+
+.form-button:focus {
+    outline: rgb(212, 241, 152) solid 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.chat-box {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 35px;
+    background-color: rgb(214, 180, 136);
+    overflow-y: auto;
+}
+
+.chat-field {
+    display: flex;
+    box-sizing: border-box;
+    width: 500px;
+    position: absolute;
+    z-index: 999;
+    left: calc(50% - 250px);
+    top: 100%; 
+}
+
+.chat-input{    
+    font-family: 'Xanh Mono', monospace;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 500px;
+    border-radius: 200px;
+}
+
+.chat-input:focus {
+    outline: none;
+}
+
+.tip-nickname {
+    color: red;
+    visibility: hidden;
+    text-align: center;
+}
+
+.chat-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.chat-button {
+    outline: none;
+}
+
+.tip-msg {
+    color: red;
+    text-align: center;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.users-list {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: calc(50% - 230px - 300px);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 35px 0 0 35px;
+    background-color: coral;
+    padding: 10px;
+    font-family: 'Xanh Mono', monospace;
+    font-weight: 700;
+    overflow-y: auto;
+}
+
+.list {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+span {
+    color:blue;
+}
+
+.current-user-message {
+    font-family: 'Xanh Mono', monospace;
+    text-align: right;
+}
+
+.current-user-title {
+    color: red;
+    margin-bottom: 3px;
+}
+
+.other-user-title {
+    font-family: 'Xanh Mono', monospace;
+    margin-bottom: 3px;
+}
+
+.other-user-message {
+    font-family: 'Xanh Mono', monospace;
+}
+
+p {
+    margin: 0;
+}
+
+.test {
+    height: 70px;
+    width: 70px;
+    border: 2px solid green;
+}
