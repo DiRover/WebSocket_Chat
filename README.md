@@ -6,3 +6,6 @@
 
 # Ссылка на GitHub-Pages
 [PAGE Task 8.2 WEBSOCKET](https://dirover.github.io/ahj-homework-sse-ws-8.2/)
+
+Данный чат разработан мною с применением технологии WebSocket
+Сервер развёрнут на хостинге Hurocku
